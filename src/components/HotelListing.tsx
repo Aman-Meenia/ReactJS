@@ -50,7 +50,7 @@ const HotelListing = () => {
                   {hotel.isVerified && (
                     <div className="ml-1 hidden sm:block">
                       <img
-                        src="/image/tick.png"
+                        src="/image/Tick.png"
                         className="h-4 w-4"
                         alt="Verified"
                       />
@@ -72,7 +72,7 @@ const HotelListing = () => {
                 {hotel.isVerified && (
                   <div className="flex items-center mb-1 sm:hidden">
                     <img
-                      src="/image/tick.png"
+                      src="/image/Tick.png"
                       alt="Verified"
                       className="h-4 w-4"
                     />
@@ -85,7 +85,7 @@ const HotelListing = () => {
                 <div className="flex items-center">
                   <div className="flex items-center">
                     <img
-                      src="/image/star.png"
+                      src="/image/Star.png"
                       className="h-4 w-4"
                       alt="Rating"
                     />
