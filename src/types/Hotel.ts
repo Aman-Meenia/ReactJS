@@ -1,3 +1,4 @@
+// TYpe of Hotel
 export type HotelDataType = {
   id: number;
   name: string;
@@ -9,6 +10,7 @@ export type HotelDataType = {
   isVerified: boolean;
 };
 
+// Hotels Data
 export const hotels: HotelDataType[] = [
   {
     id: 1,
